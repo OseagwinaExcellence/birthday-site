@@ -1,0 +1,155 @@
+body {
+     font-family: "Happy Monkey";
+     background: linear-gradient(lightskyblue, pink);
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.main-div, .gift {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+h1, h2, h3, h4, p, a {
+     color: white;
+     text-shadow: 0px 0px 100px black;
+}
+
+h2 {
+     margin-top: 1px;
+}
+
+#Nick-photo {
+     width: 200px;
+     border: 5px solid pink;
+     border-radius: 200px;
+     margin-top: 30px;
+}
+
+.bd-age {
+     background-color: pink;
+     border-radius: 10px;
+     padding: 9px;
+     margin: 19px 10px 10px 0px;
+}
+
+.bd-date {
+     background-color: pink;
+     border-radius: 10px;
+     padding: 9px;
+     margin: 9px 10px 40px 0px;
+}
+
+.gift-1 {
+    background: url("/images/gift cover 1.avif");
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    border: 5px pink solid;
+    border-radius: 9px;
+}
+
+.gift-1:hover {
+     background: url("./images/happy-1.gif");
+     background-size: cover;
+     height: 400px;
+     width: 400px;
+
+}
+
+.direction {
+     margin: 0px 0px 50px 0px;
+}
+
+#happy {
+     margin-top: 50px;
+}
+
+.gift-2 {
+     width: 400px;
+     height: 400px;
+     background-image: url("./images/gift cover 1.avif");
+     background-size: cover;
+     border-radius: 10px;
+     border: 6px solid pink;
+     margin-top: 0px;
+}
+
+.gift-2:hover {
+     background-image: url("./images/hot.webp");
+     background-size: cover;
+     height: 400px;
+     width: 400px;
+}
+
+.gift-3 {
+     background-image: url("./images/gift cover 1.avif");
+     background-size: cover;
+     border-radius: 10px;
+     border: pink solid 4px;
+     width: 400px;
+     height: 400px;
+}
+
+
+.gift-3:hover {
+     background-image: url("./images/describe.webp");
+     background-size: cover;
+
+     width: 400px;
+     height: 400px;
+}
+
+.describe {
+     margin-top: 50px;
+}
+
+.badass {
+     margin-top: 50px;
+}
+
+.cheers {
+     margin-top: 50px;
+}
+
+.gift-4 {
+     background-image: url("./images/gift cover 1.avif");
+     background-size: cover;
+     border-radius: 10px;
+     border: 4px pink solid;
+     width: 400px;
+     height: 400px;
+}
+
+.gift-4:hover {
+     background: url(./images/badass.gif);
+     background-size: cover;
+     width: 400px;
+     height: 400px;
+}
+
+
+.gift-5 {
+     background-image: url("./images/gift cover 1.avif");
+     background-size: cover;
+     border-radius: 10px;
+     border: 4px pink solid;
+     width: 250px;
+     height: 250px;
+}
+
+.gift-5:hover {
+     background: url(./images/cheers.webp);
+     background-size: cover;
+     width: 250px;
+     height: 250px;
+}
+
+#footer {
+     font-style: italic;
+}
